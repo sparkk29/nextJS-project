@@ -1,11 +1,11 @@
-import { NextPage } from "next";
+import React from 'react'
 
-const LoginPage: NextPage = () => {
-    return (
-        <div className="">
-            <h1 className="text-4xl  ">Login</h1>
-        </div>
-    );
+export const LoginPage = () => {
+  return (
+    <div>LoginPage</div>
+  )
 }
 
 export default LoginPage;
+
+
